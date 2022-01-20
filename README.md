@@ -1,2 +1,4 @@
 # ZipFilePasswordBruteForcer
-Simple ZIP File Password Brute Force tool
+
+## Description:
+### Simple ZIP File Password Brute Force tool created for educational purposes.
