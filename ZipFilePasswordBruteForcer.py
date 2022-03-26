@@ -16,8 +16,7 @@ if __name__ == "__main__":
         try:
             sys.stdout.write("\n[X] Attempting password -> {}\r".format(password.decode()))
             files_in_zip = zip_file.namelist()
-            # Try to read first file.
-            # Instead of read, open and extract can be used, I find read as being the most secure option.
+            # Try to open first file in the zip array.
             zip_file.open(files_in_zip[0], pwd=bytes(password))
         except Exception as e:
             continue
